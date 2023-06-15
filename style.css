@@ -1,0 +1,240 @@
+body{
+background-color:rgb(8, 8, 8);
+}
+
+.navBar{
+    display:flex;
+    justify-content:flex-end;
+    /* justify-content:left; */
+    /* border:solid rgb(180, 168, 168); */
+    height:30px;
+    /* background-color: transparent; */
+    /* background-color: transparent (177, 177, 177); */
+    /* background-color: #11ffee00;  */
+}
+
+.logo{
+    display:flex;
+    justify-content:start;
+    /* justify-content: flex-start; */
+    height:40px;
+    margin-top:-5px;
+    /* padding-left:600px; */
+    
+}
+
+.netflixLogo{
+    display:flex;
+    justify-content:start;
+    /* justify-content:left; */
+    /* align-items:left; */
+    /* margin-right:0em; */
+}
+
+.browse{
+    /* display:flex;
+    /* align-items:left */
+    /* align-items:left; */
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:9.5px;
+    font-weight:bold;
+color:white;
+padding-top:10px;
+margin-right:-70em;
+/* padding-left:-600px;
+margin-right:-300px; */
+/* padding-left:-700; */
+}
+
+.right{
+display:flex;
+justify-content:right;
+align-items:right;
+margin-left:1420px;
+padding-left:1px fixed;
+}
+
+.srchIcon{
+    display:flex;
+height:30px;
+margin-right:10px;
+}
+
+.bellIcon{
+    display:flex;
+    height:40px;
+    margin-right:10px;
+    margin-top:-6px;
+}
+
+.userIcon{
+display:flex;
+
+}
+
+.hannaBkg{
+height:400px;
+
+}
+
+
+.hanna{
+display:flex;
+justify-content:left;
+height:70vh;
+width:100%;
+}
+
+.disappear{
+    display:none;
+}
+
+.manifestBkg{
+    background-image: url('https://i.gifer.com/S14x.gif');
+}
+
+.hannatxt{
+color:white;
+margin-top:100px;
+background-color:transparent;
+}
+
+.hannaTitle{
+    margin-top:-550px;
+    margin-left:20px;
+    font-size:70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+.play{
+    margin-left:20px;
+    margin-right:-17px;
+    background-color:white;
+    width:75px;
+    height:27px;
+    border-radius:7px;
+    
+}
+.play:hover{
+    margin-left:20px;
+    background-color:rgb(175, 174, 174);
+    cursor: pointer;
+}
+
+.info{
+    margin-left:20px;
+    color:white;
+    background-color:rgb(109, 102, 102);
+    width:82px;
+    height:27px;
+    border-radius:7px;
+}
+
+.info:hover{
+    margin-left:20px;
+    background-color:rgb(68, 68, 68);
+    cursor: pointer;
+}
+
+.synopsis{
+    /* margin-bottom:400px; */
+    margin-top:-40px;
+    margin-left:20px;
+    font-size:14px;
+
+}
+
+.continueBar{
+display:flex;
+justify-content:space-between;
+/* align-items:flex-start; */
+/* border:solid rgb(160, 148, 148); */
+/* border-width:.4px; */
+margin-top:70px;
+height:150px;
+margin-top:15px;
+padding-left:60px;
+}
+
+.contHead{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+display:flex, row;
+justify-content:flex-start;
+align-items:left;
+color:white;
+margin-top:15px;
+/* width:30px; */
+padding-left:20px;
+}
+
+.filmCover{
+    /* border:solid red; */
+    /* margin-right:10px; */
+    /* margin-left:-40px; */
+    width:100%;
+    /* margin-right:50px; */
+    margin-left:-40px;
+    padding-right:46px;
+
+}
+
+.recentlyBar{
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+    align-items:left;
+    /* border:solid rgb(160, 148, 148); */
+    /* border-width:.4px; */
+    margin-top:20px;
+    height:150px;
+    padding-left:60px;
+}
+
+.recentTxt{
+    /* border:solid red; */
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+display:flex, row; 
+justify-content:flex-start;
+align-items:left;
+color:white;
+margin-top:50px;
+width:180px;
+padding-left:20px;
+/* margin-right:-60px; */
+/* padding-right:-20px; */
+}
+
+
+.trendingBar{
+    display:flex;
+    justify-content:space-between;
+    /* align-items:flex-start; */
+    /* border:solid rgb(160, 148, 148); */
+    /* border-width:.4px; */
+    margin-top:20px;
+    height:150px;
+    /* padding-top:-50px; */
+    padding-left:60px;
+}
+
+.trendTxt{
+    /* border:solid red; */
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+display:flex, row;
+justify-content:flex-start;
+align-items:left;
+color:white;
+margin-top:50px;
+width:180px;
+padding-left:20px;
+}
+
+/* .slide{
+
+    display:flex;
+} */
+
